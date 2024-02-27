@@ -1,6 +1,6 @@
 package creational.factorymethod.ClassTypePayment;
 
-import creational.factorymethod.Payment;
+import creational.factorymethod.ClassTypePayment.interfaces.Payment;
 
 public class CardPayment implements Payment {
    public void doPayment() {
